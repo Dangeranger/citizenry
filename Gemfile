@@ -23,7 +23,7 @@ end
 gem "hoptoad_notifier"
 
 #--[ Utility ]------------------------------------------------------------------
-gem "httparty", "~> 0.8.0"
+gem "httparty", "~> 0.21.0"
 gem "json", "~> 1.6.1"
 gem "addressable", "2.3.2", :require => 'addressable/uri'
 
@@ -33,7 +33,7 @@ gem "omniauth", "~> 1.1"
 
 # Automatic login provider selection
 gem "redfinger", "~> 0.1.0", :git => "git://github.com/reidab/redfinger.git"
-gem "ruby-openid", "~> 2.1.8"
+gem "ruby-openid", "~> 2.9.1"
 gem "net-dns", "~> 0.6.1", :require => "net/dns/resolver"
 
 # Client libraries for authenticated services
